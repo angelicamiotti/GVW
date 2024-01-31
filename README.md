@@ -41,7 +41,7 @@ Pour realiser l'extraction de données, nous avons fait du webscrapping avec du 
 
 
 
-Pour réaliser la transformation et nettoyage de données, nous avons également utilisé Python. 
+Pour réaliser la transformation et nettoyage de données, nous avons également utilisé Python. Le prémier tableaux donnent une idée générale du groupe et 
 
 Ainsi, nous avons réalisé les étapes suivantes avec Python  :
 - Extraction de données de différentes sources (xlsx, site internet, pdf) en utilisant Pandas ;  
