@@ -35,9 +35,9 @@ https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-
 Pour realiser l'extraction de données, nous avons fait du webscrapping avec du python et nous avons également utilisé python pour extraire des tableaux des documents pdf.
 
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" width="400">
-
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" width="400">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" height="400">
+&nbsp;
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" height="400">
 
 
 
