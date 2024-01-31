@@ -57,7 +57,15 @@ Nous avons realisé une derniere partie de nettoyage de données
 
 # Analyse de données
 Pour réaliser l'analyse de données, nous avons essentiellement utilisé Python et Power BI.
-Tout d'abord, comme il y avaient plusieurs variables numériques dans les données internes du GVS, nous avons confectionou des matrices de correlation avec Python pour chaque une des marques GVW afin d'avoir des prémieres pistes sur les variables qui possèdent une rélation linéaire.
+
+Tout d'abord, nous voulions répondre à la question :  "quelle marque se vend le mieux ? "
+
+C'est pourquoi nous avons confectionado un premier tableau de bord pour répondre á cette question selon plusieurs parametres : ventes de véhicules, bénéfices, Chiffre d'Affaires.
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
+
+Ensuite, pour évaluer le profil de chaque marque dans la période 2017-2022, notamment les changements de strategies en fonction du COVID, nous avons opté pour avant de faire les tableaux de bord, réaliser des matrices de correlation pour chaque marque avec Python afin d'avoir des premiers pistes sur les variables numériques qui ont une dépendance linéaire.
+
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/c2b51598-ea40-492f-8ee7-7eb77878aae9" height="300">
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/f95ad710-78e3-4cb3-b658-7208ce0449ef" height="300">
@@ -68,7 +76,7 @@ Ensuite, nous sommes passées à la construction des tableaux de bord sur Power 
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/343266cf-9b6f-4a13-8e89-5b547ca35161" height="300">
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
+
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="300">
 
