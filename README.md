@@ -27,10 +27,8 @@ Les autres données que nous avons extraites provenaient de différentes sources
 
 - https://www.abcbourse.com/analyses/chiffres/VOW3f
 - https://www.best-selling-cars.com/electric/2022-full-year-germany-best-selling-electric-cars-by-brand-and-model/
-- https://www.best-selling-cars.com/germany/2022-full-year-germany-best-selling-car-brands/ 
 - https://www.best-selling-cars.com/france/2022-full-year-france-top-20-best-selling-car-models/ 
-
-https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-uk-and-efta-country/
+- https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-uk-and-efta-country/
 
 ## ETL
 Pour l'extraction des données, nous avons employé le web scraping avec Python et avons également utilisé Python pour extraire des tableaux de documents PDF.
@@ -46,9 +44,9 @@ Pour l'extraction des données, nous avons employé le web scraping avec Python 
 Pour effectuer la transformation et le nettoyage des données, nous avons également utilisé Python. 
 
 Ainsi, nous avons réalisé les étapes suivantes avec Python  :
-- Extraction de données de différentes sources (xlsx, site internet, pdf) en utilisant Pandas ;
+- Extraction de données de différentes sources (xlsx, site internet, pdf) ;
 - Dépivotement des colonnes ; 
-- Suppression des colonnes et lignes non nécessaires ;
+- Suppression des colonnes et lignes non nécessaires.
 
 À la fin de ce processus, nous avons obtenu des flat tables pour les données du GVW et pour les données externes.
 
@@ -59,13 +57,18 @@ Ainsi, nous avons réalisé les étapes suivantes avec Python  :
 
 Entre l'extraction et le dépivotement des données, nous avons effectué une partie du nettoyage des données avec Excel, car nous avions des données en notation anglo-saxonne (avec des virgules pour les milliers) et nous devions les convertir en notation française.
 
-Ensuite, nous avons utilisé Power BI pour une dernière partie du nettoyage des données. Nous avons également modélisé un entrepôt de données (Data Warehouse) pour les données internes du GVW ainsi qu'un autre pour les données extraites d'autres sources, incluant les groupes concurrents et le propre groupe VW.
+Ensuite, nous avons utilisé Power BI pour une dernière partie du nettoyage des données. Nous avons également modélisé un entrepôt de données (Data Warehouse) en modèle constelation pour les données internes du GVW ainsi qu'un autre pour les données extraites d'autres sources, incluant les groupes concurrents et le propre groupe VW.
+
+*Modélisation en constelation du Datawarehouse des données du GVW*
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/a7bace7b-9b68-42b3-8fc1-a8da246cbe10" height="250">
 
 
 ## Analyse de données
 Pour réaliser l'analyse des données, nous avons principalement utilisé Python et Power BI.
 
-Tout d'abord, nous voulions répondre à la question : "Quelle marque se vend le mieux ?"
+### Groupe Volkswagen
+Tout d'abord nous nous sommes concentrés dans les marques du groupe. La première question à laquelle nous voulions répondre était : "Quelle marque se vend le mieux ?"
 
 C'est pourquoi nous avons créé un premier tableau de bord pour répondre à cette question selon plusieurs paramètres : ventes de véhicules, bénéfices, chiffre d'affaires.
 
@@ -88,8 +91,17 @@ Nous avons ensuite élaboré des tableaux de bord sur Power BI pour obtenir une 
 
 Après avoir obtenu une vue générale, nous avons développé des tableaux de bord spécifiques pour chaque marque, en sélectionnant les types de graphiques les plus appropriés pour mettre en évidence les informations souhaitées.
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="300">
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
 
+### La présence du GVW par rapport aux autres groupes en France et en Allemagne
+
+### Le marché electrique en France et en Allemagne 
+
+### Le marché français et allemand
+
+La présence du GVW par rapport aux autres groupes dans ces pays
+
+Les derniers questions à lesquelles nous souhaitions répondre étaient : quelle est la tendance de voitures BEV dans chacun de ces pays et est-ce que GVW suit cette tendance ? 
 
