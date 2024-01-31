@@ -37,10 +37,11 @@ https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-
 # ETL
 Pour réaliser l'extraction des données, nous avons utilisé du web scraping avec Python et avons également utilisé Python pour extraire des tableaux de documents PDF.
 
+*Exemple de feuilles de source du GVW et de sources externes*
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" height="300">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" height="250">
 &nbsp;
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" height="300">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" height="250">
 
 
 
@@ -53,11 +54,13 @@ Ainsi, nous avons réalisé les étapes suivantes avec Python  :
 
 À la fin de ce processus, nous avons obtenu des flat tables pour les données du GVW et pour les données externes.
 
+*Exemple de flat table obtenue pour les sources du groupe VW*
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/42739ff4-7e5e-4ac6-a4c4-e3bd69c8c8cd" height="250">
+
+
 Entre l'extraction des données et le dépivotage, nous avons realisé une partie de nettoyage des données avec Excel car nous avions des données en notation anglo-saxonne (avec des virgules pour les milliers) et nous devions les convertir en notation française.
 
-Ensuite, nous sommes passés à Power BI, où nous avons modélisé un entrepôt de données (Data Warehouse) pour les données internes du GVW et un pour les données extraites d'autres sources, incluant tous les concurrents confondus.
-
-Nous avons realisé une derniere partie de nettoyage de données sur Power BI.........
+Ensuite, nous sommes passés à Power BI, où nous avons réalisé une dernière partie de nettoyage de données. Nous avons également modélisé un entrepôt de données (Data Warehouse) pour les données internes du GVW ainsi qu'un autre pour les données extraites d'autres sources, incluant tous les concurrents de manière consolidée.
 
 
 # Analyse de données
@@ -67,7 +70,8 @@ Tout d'abord, nous voulions répondre à la question : "Quelle marque se vend le
 
 C'est pourquoi nous avons confectionné un premier tableau de bord pour répondre à cette question selon plusieurs paramètres : ventes de véhicules, bénéfices, chiffre d'affaires.
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/0614ad4e-ec58-42d2-b4b5-ce5d541c2991" height="300">
+
 
 Ensuite, pour évaluer le profil de chaque marque sur la période 2017-2022, notamment les changements de stratégies en fonction du COVID, nous avons opté pour, avant de faire les tableaux de bord, réaliser des matrices de corrélation pour chaque marque avec Python afin d'avoir des premières pistes sur les variables numériques qui ont une dépendance linéaire.
 
@@ -86,6 +90,6 @@ Ensuite, nous sommes passés à la construction des tableaux de bord sur Power B
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="300">
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/0614ad4e-ec58-42d2-b4b5-ce5d541c2991" height="300">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
 
 
