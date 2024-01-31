@@ -11,10 +11,10 @@ L'objectif de ce projet était d'effectuer une analyse des données de vente des
 - La présence du GVW dans différents pays ;
 - Les tendances générales des voitures BEV et si le Groupe Volkswagen suit ces tendances.
 
-# Méthodologie de travail
+## Méthodologie de travail
 Dès le début du projet, nous avons établi un diagramme de Gantt pour identifier les risques associés à chaque tâche, désigner les responsables de chaque activité et planifier soigneusement toutes les étapes. La méthodologie suivie est la CRISP-DM (Cross Industry Standard Process for Data Mining), qui comprend 5 étapes : compréhension du business, compréhension des données, préparation des données, modélisation, évaluation et déploiement.
 
-# Sources de données
+## Sources de données
 ### GVW
 Les données que nous avons extraites du GVW étaient toutes sous forme de tableaux Excel, comme le suivant :
 
@@ -32,7 +32,7 @@ Les autres données que nous avons extraites provenaient de différentes sources
 
 https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-uk-and-efta-country/
 
-# ETL
+## ETL
 Pour l'extraction des données, nous avons employé le web scraping avec Python et avons également utilisé Python pour extraire des tableaux de documents PDF.
 
 *Exemple de feuilles du GVW et de sources externes*
@@ -62,7 +62,7 @@ Entre l'extraction et le dépivotement des données, nous avons effectué une pa
 Ensuite, nous avons utilisé Power BI pour une dernière partie du nettoyage des données. Nous avons également modélisé un entrepôt de données (Data Warehouse) pour les données internes du GVW ainsi qu'un autre pour les données extraites d'autres sources, incluant les groupes concurrents et le propre groupe VW.
 
 
-# Analyse de données
+## Analyse de données
 Pour réaliser l'analyse des données, nous avons principalement utilisé Python et Power BI.
 
 Tout d'abord, nous voulions répondre à la question : "Quelle marque se vend le mieux ?"
