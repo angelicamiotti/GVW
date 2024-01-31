@@ -56,6 +56,14 @@ Nous avons realisé une derniere partie de nettoyage de données
 
 
 # Analyse de données
+Pour réaliser l'analyse de données, nous avons essentiellement utilisé Python et Power BI.
+Tout d'abord, comme il y avaient plusieurs variables numériques dans les données internes du GVS, nous avons confectionou des matrices de correlation avec Python pour chaque une des marques GVW afin d'avoir des prémieres pistes sur les variables qui possèdent une rélation linéaire.
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/c2b51598-ea40-492f-8ee7-7eb77878aae9" height="300">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f95ad710-78e3-4cb3-b658-7208ce0449ef" height="300">
+
+Ensuite, nous sommes passées à la construction des tableaux de bord sur Power BI
+
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/68194466-3a42-4a35-a36b-72c60acc4361" height="300">
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/343266cf-9b6f-4a13-8e89-5b547ca35161" height="300">
