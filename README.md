@@ -35,9 +35,9 @@ https://www.best-selling-cars.com/europe/2022-full-year-europe-car-sales-per-eu-
 Pour realiser l'extraction de données, nous avons fait du webscrapping avec du python et nous avons également utilisé python pour extraire des tableaux des documents pdf.
 
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" height="400">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/36868bd6-6a71-4df1-9061-1465cd1a4f75" height="300">
 &nbsp;
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" height="400">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/771a1d62-156b-4832-900a-cc96aaae0404" height="300">
 
 
 
@@ -53,3 +53,17 @@ Entre l'extraction des données et le dépivotage, nous avons realisé une parti
 
 Ensuite, nous sommes passés au Power BI, où nous avons modelisé un Data Warehouse des données internes du GVW et un pour les données que nous avons extrait d'autres sources avec tous les concurrents confondus.
 Nous avons realisé une derniere partie de nettoyage de données 
+
+
+# Analyse de données
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/68194466-3a42-4a35-a36b-72c60acc4361" height="300">
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/343266cf-9b6f-4a13-8e89-5b547ca35161" height="300">
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/ffc06928-a31b-4d9a-99a1-497a0d3beb15" height="300">
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="300">
+
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/0614ad4e-ec58-42d2-b4b5-ce5d541c2991" height="300">
+
+
