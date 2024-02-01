@@ -113,14 +113,14 @@ Et avec ces données, nous nous sommes concentrés sur deux sujets principaux : 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/a40b47f8-c68c-4cb0-a456-28f80424117b" height="200">
 
 
-Ensuite, en ce qui concerne les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022.
+Ensuite, en ce qui concerne les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022. Ces données comprendrent les enregistrements de tous les vehicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une regression linéaire avec Python et nous avons calculé le taux de croissance pour chacun des pays afin de comparer les deux. Nous avons donc obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus vite que celle de la France.
 
-![image](https://github.com/angelicamiotti/GVW/assets/8940755/f2dedcc2-5367-49c7-8f7a-dafe27fe0c6b)
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f2dedcc2-5367-49c7-8f7a-dafe27fe0c6b" height="200">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/d99189c9-c7c6-4c18-8934-5411c6485b1d" height="200">
 
+Ensuite, nous avons fait la même comparaison, mais maintenant une comparaison entre la vente de toutes les vehicules BEV en Allemagne et la vente de vehicules GVW en Allemagne et nous avons obtenu le graphique suivante.
 
-![image](https://github.com/angelicamiotti/GVW/assets/8940755/d99189c9-c7c6-4c18-8934-5411c6485b1d)
+![image](https://github.com/angelicamiotti/GVW/assets/8940755/45ed604a-572f-489c-9d0e-77f09d9d1b11)
 
-La présence du GVW par rapport aux autres groupes dans ces pays 
-
-Les derniers questions à lesquelles nous souhaitions répondre étaient : quelle est la tendance de voitures BEV dans chacun de ces pays et est-ce que GVW suit cette tendance ? 
+En réalisant la regression linéaire avec la methode des minimos quadrados, nous avons calculé que le rythme de croissance des BEV en Allemagne surpasse de 38% celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale.
 
