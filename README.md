@@ -6,9 +6,11 @@ Ce projet a été réalisé en groupe dans le cadre de la fin de formation en ta
 
 L'objectif de ce projet était d'effectuer une analyse des données de vente des différentes marques du GVW sur la période de 2017 à 2022 afin d'évaluer :
 
+- Les meilleures ventes du GVW ;
 - Les différences entre les marques du GVW ; 
-- Les impacts du COVID sur chacune des marques GVW ; 
-- La présence du GVW dans différents pays ;
+- Les impacts du COVID sur chacune des marques GVW ;
+- La quantité de modèles GVW parmi les voitures les plus vendues en France et en Allemagne ;
+- La variation de la quantité de modèles GVW commercialisés parmi les modèles les plus vendus entre 2020 et 2022 ;
 - Les tendances générales des voitures BEV et si le Groupe Volkswagen suit ces tendances.
 
 ## Méthodologie de travail
