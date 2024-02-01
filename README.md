@@ -85,9 +85,9 @@ Pour évaluer le profil de chaque marque sur la période 2017-2022, notamment le
 Nous avons ensuite élaboré des tableaux de bord sur Power BI pour obtenir une vue d'ensemble des tendances de chaque marque entre 2017 et 2022.
 
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/816821f4-2b01-4eb2-874a-4ceeda9f1a14" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/816821f4-2b01-4eb2-874a-4ceeda9f1a14" height="400">
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/969f2ec4-58cd-446a-a2c6-0a0369d63e7f" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/969f2ec4-58cd-446a-a2c6-0a0369d63e7f" height="400">
 
 
 Après avoir obtenu une vue générale, nous avons développé des tableaux de bord spécifiques pour chaque marque, en sélectionnant les types de graphiques les plus appropriés pour mettre en évidence les informations souhaitées.
@@ -119,7 +119,7 @@ Ces données comprennent les enregistrements de tous les véhicules BEV dans ces
 Ensuite, nous avons fait la même comparaison, mais cette fois entre la vente de tous les véhicules BEV en Allemagne et la vente de véhicules BEV du GVW en Allemagne, ce qui nous a donné le graphique suivant.
 
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/45ed604a-572f-489c-9d0e-77f09d9d1b11" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/45ed604a-572f-489c-9d0e-77f09d9d1b11" height="300">
 
 En réalisant la régression linéaire avec la méthode des moindres carrés, nous avons calculé que le rythme de croissance des BEV en Allemagne dépasse de 38 % celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale.
 
