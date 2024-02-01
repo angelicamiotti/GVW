@@ -110,7 +110,7 @@ Avec ces données, nous nous sommes concentrés sur deux sujets principaux : la 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/a40b47f8-c68c-4cb0-a456-28f80424117b" height="150">
 
 
-Ensuite, en ce qui concerne les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022. 
+Ensuite, pour analyser les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022. 
 
 Ces données comprennent les enregistrements de tous les véhicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une régression linéaire avec Python et avons calculé le taux de croissance pour chacun des pays afin de les comparer. Nous avons donc obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus rapidement que celle de la France.
 
