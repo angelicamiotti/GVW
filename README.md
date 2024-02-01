@@ -61,9 +61,11 @@ Entre l'extraction et le dépivotement des données, nous avons effectué une pa
 
 Ensuite, nous avons utilisé Power BI pour une dernière partie du nettoyage des données. Nous avons également modélisé un entrepôt de données (Data Warehouse) en modèle de constellation pour les données internes du GVW ainsi que pour les données extraites d'autres sources, incluant les groupes concurrents et le groupe VW lui-même.
 
-*Modélisation en constelation du Data Warehouse des données du GVW*
+*Modélisation en constelation du Data Warehouse des données du GVW et des données de sources externes*
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/a7bace7b-9b68-42b3-8fc1-a8da246cbe10" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/c47e98bb-276d-489a-a3b9-f9d21172b80b" height="250">
+
 
 
 ## Analyse de données
