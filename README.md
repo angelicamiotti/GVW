@@ -85,16 +85,16 @@ Pour évaluer le profil de chaque marque sur la période 2017-2022, notamment le
 Nous avons ensuite élaboré des tableaux de bord sur Power BI pour obtenir une vue d'ensemble des tendances de chaque marque entre 2017 et 2022.
 
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/68194466-3a42-4a35-a36b-72c60acc4361" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/816821f4-2b01-4eb2-874a-4ceeda9f1a14" height="250">
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/343266cf-9b6f-4a13-8e89-5b547ca35161" height="250">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/969f2ec4-58cd-446a-a2c6-0a0369d63e7f" height="250">
+
 
 Après avoir obtenu une vue générale, nous avons développé des tableaux de bord spécifiques pour chaque marque, en sélectionnant les types de graphiques les plus appropriés pour mettre en évidence les informations souhaitées.
 
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/f53a2f32-5f6d-4aca-bffd-21f364620f32" height="400">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/b60398f0-fd9f-41c7-84a1-64bce0ea6373" height="400">
 <br>
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/b28d3907-69dd-4e10-9736-5cd40dc57799" height="400">
-
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/fce12737-3a64-4f8b-be7c-fca066dfd578" height="400">
 
 ### Le marché français et allemand
 
@@ -104,6 +104,7 @@ Après avoir analysé les données fournies par le GVW, nous nous sommes focalis
 Avec ces données, nous nous sommes concentrés sur deux sujets principaux : la présence du GVW en France et en Allemagne par rapport aux autres marques et les tendances du marché électrique dans ces deux pays.
 
 *Quantité de modèles GVW parmi les 21 modèles les plus vendus en France et en Allemagne*
+
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/7e8042a8-ed67-4885-b0f3-ce1135ab2360" height="150">
 &nbsp;
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/a40b47f8-c68c-4cb0-a456-28f80424117b" height="150">
