@@ -146,8 +146,6 @@ Tout d'abord, le projet nous a permis de mettre en pratique les apprentissages a
 
 Le travail d'équipe dans le but de réaliser un projet d'analyse de données nous a permis de développer nos compétences en matière d'organisation du travail et de répartition des tâches, ainsi que de suivi de projet, notamment à travers l'utilisation de diagrammes de Gantt.
 
-La qualité et la pertinence de l'analyse dépendent de la qualité des données
-- Les parties Business understanding et Data preparation sont des étapes cruciales du travail de Data Analyst
 
 Nous avons également conclu que la qualité et la pertinence de l'analyse dépendent grandement de la qualité des données disponibles. Les étapes de compréhension du business et de préparation des données  sont des étapes cruciales dans le travail d'un Data Analyst.
 
