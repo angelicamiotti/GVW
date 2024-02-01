@@ -112,7 +112,9 @@ Avec ces données, nous nous sommes concentrés sur deux sujets principaux : la 
 
 Ensuite, pour analyser les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022. 
 
-Ces données comprennent les enregistrements de tous les véhicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une régression linéaire avec Python et avons calculé le taux de croissance pour chacun des pays afin de les comparer. Nous avons donc obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus rapidement que celle de la France.
+Ces données comprennent les enregistrements de tous les véhicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une régression linéaire avec Python et avons calculé le taux de croissance pour chacun des pays afin de les comparer. Nous avons donc obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus rapidement que celle de la France et donc les pays n'ont pas exactement le même profil. 
+En utilisant la regression linéaire, nous avons calculé des dates pour chaque pays atteindre 50% de voitures BEV si la tendance observé par ces données se pursuit et nous avons obtenue que l'Allemagne vai atingir esse valor em 2028 tandis que la France vai atingir em 2032. Deve ser levado em consideração a escassez de nossos dados, é possivel que com mais dados de 2023 em diante a curva mude de perfil.
+
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/f2dedcc2-5367-49c7-8f7a-dafe27fe0c6b" height="250">
 
@@ -121,5 +123,30 @@ Ensuite, nous avons fait la même comparaison, mais cette fois entre la vente de
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/45ed604a-572f-489c-9d0e-77f09d9d1b11" height="300">
 
-En réalisant la régression linéaire avec la méthode des moindres carrés, nous avons calculé que le rythme de croissance des BEV en Allemagne dépasse de 38 % celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale.
+En réalisant la régression linéaire avec la méthode des moindres carrés, nous avons calculé que le rythme de croissance des BEV en Allemagne dépasse de 38 % celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale. Avec ce graphique, nous pouvons conclure que le GVW a besoin de repenser à ces strategies s'il veut acompanhar a tendencia de voitures electriques nos anos que virao na Alemanha.
+
+### Conclusion
+#### Conclusion de l'analyse
+D'après nos analyses, il est possible de conclure que : 
+- A marca que possui maior quantidade de veículos vendidos não é necessariamente a que possui o maior lucro
+- Cada marca possui um perfil de consommateur différent e foi impactada de forma diferente pelo COVID
+- Le GVW a adopté différentes stratégies financières en fonction de chaque marque 
+- La stratégie GVW sur le segment électrique peut évoluer afin d'améliorer l'attractivité de la marque
+
+#### Conclusion du projet
+Après avoir réalisé ce projet, le groupe est arrivé à quelques conclusions. 
+Tout d'abord, le projet nous a permis mettre en pratique de l'apprentissage de la formation, telles que : 
+- Confection des scripts Python pour la récupération de données
+- Construction d'un schéma de DataWarehouse
+- Normalisation d'une table de données
+- Utilisation de PowerBI pour créer des rapports de visualisation
+- Utilisation de Python pour créer des visualisations des données.
+
+Le travail en équipe dans le but de réaliser un projet d'Analyse de Données nous a permis de travailler : 
+- Organisation du travail, répartition des tâches
+- Suivi de projet : diagramme de Gant
+
+La qualité et la pertinence de l'analyse dépendent de la qualité des données
+- Les parties Business understanding et Data preparation sont des étapes cruciales du travail de Data Analyst
+
 
