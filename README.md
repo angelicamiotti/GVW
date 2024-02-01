@@ -110,10 +110,11 @@ Avec ces données, nous nous sommes concentrés sur deux sujets principaux : la 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/a40b47f8-c68c-4cb0-a456-28f80424117b" height="150">
 
 
-Ensuite, pour analyser les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022. 
+Ensuite, pour analyser les tendances du marché éléctrique, nous avons réalisé une normalisation afin de ne pas prendre en compte les fluctuations du marché au cours des années. C'est pourquoi nous avons analisé la vente de BEV (véhicules électriques à batterie) en pourcentage par rapport au total de véhicules vendus dans la période 2019-2022 dans chaque pays concerné. 
 
-Ces données comprennent les enregistrements de tous les véhicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une régression linéaire avec Python et avons calculé le taux de croissance pour chacun des pays afin de les comparer. Nous avons donc obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus rapidement que celle de la France et donc les pays n'ont pas exactement le même profil. 
-En utilisant la regression linéaire, nous avons calculé des dates pour chaque pays atteindre 50% de voitures BEV si la tendance observé par ces données se pursuit et nous avons obtenue que l'Allemagne vai atingir esse valor em 2028 tandis que la France vai atingir em 2032. Deve ser levado em consideração a escassez de nossos dados, é possivel que com mais dados de 2023 em diante a curva mude de perfil.
+Ces données comprennent les enregistrements de tous les véhicules BEV dans ces pays, toutes marques confondues. Nous avons donc réalisé une régression linéaire avec Python et avons calculé le taux de croissance pour chacun des pays afin de les comparer. Nous avons ainsi  obtenu que la part de marché des BEV en Allemagne grimpe 48,6% plus rapidement que celle de la France, ce qui indique que les pays n'ont pas exactement le même profil. 
+
+En utilisant la régression linéaire, nous avons calculé des dates auxquelles chaque pays pourrait atteindre 50 % de voitures BEV si la tendance observée par ces données se poursuit, et nous avons trouvé que l'Allemagne atteindrait cette valeur en 2028 tandis que la France l'atteindrait en 2032. Il doit être pris en considération que, vu la rareté de nos données, il est possible qu'avec plus de données à partir de 2023, la courbe change de profil.
 
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/f2dedcc2-5367-49c7-8f7a-dafe27fe0c6b" height="250">
@@ -123,30 +124,30 @@ Ensuite, nous avons fait la même comparaison, mais cette fois entre la vente de
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/45ed604a-572f-489c-9d0e-77f09d9d1b11" height="300">
 
-En réalisant la régression linéaire avec la méthode des moindres carrés, nous avons calculé que le rythme de croissance des BEV en Allemagne dépasse de 38 % celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale. Avec ce graphique, nous pouvons conclure que le GVW a besoin de repenser à ces strategies s'il veut acompanhar a tendencia de voitures electriques nos anos que virao na Alemanha.
+
+En réalisant la régression linéaire avec la méthode des moindres carrés, nous avons calculé que le rythme de croissance des BEV en Allemagne dépasse de 38 % celui du Groupe VW, révélant un écart entre le constructeur et la tendance nationale. Avec ce graphique, nous pouvons conclure que le GVW a besoin de repenser ses stratégies s'il veut suivre la tendance des voitures électriques dans les années à venir en Allemagne.
 
 ### Conclusion
 #### Conclusion de l'analyse
 D'après nos analyses, il est possible de conclure que : 
-- A marca que possui maior quantidade de veículos vendidos não é necessariamente a que possui o maior lucro
-- Cada marca possui um perfil de consommateur différent e foi impactada de forma diferente pelo COVID
-- Le GVW a adopté différentes stratégies financières en fonction de chaque marque 
-- La stratégie GVW sur le segment électrique peut évoluer afin d'améliorer l'attractivité de la marque
+- La marque qui possède la plus grande quantité de véhicules vendus n'est pas nécessairement celle qui génère le plus de profit ;
+- Chaque marque possède un profil de consommateur différent et a été impactée de manière distincte par le COVID ;
+- Le GVW a adopté des stratégies financières variées en fonction de chaque marque ;
+- La stratégie du GVW sur le segment électrique pourrait évoluer pour améliorer l'attractivité de la marque.
 
 #### Conclusion du projet
 Après avoir réalisé ce projet, le groupe est arrivé à quelques conclusions. 
-Tout d'abord, le projet nous a permis mettre en pratique de l'apprentissage de la formation, telles que : 
-- Confection des scripts Python pour la récupération de données
-- Construction d'un schéma de DataWarehouse
-- Normalisation d'une table de données
-- Utilisation de PowerBI pour créer des rapports de visualisation
-- Utilisation de Python pour créer des visualisations des données.
+Tout d'abord, le projet nous a permis de mettre en pratique les apprentissages acquis durant la formation, tels que :
+- La création de scripts Python pour la récupération des données ;
+- La construction d'un schéma de Data Warehouse ;
+- La normalisation d'une table de données ;
+- L'utilisation de PowerBI pour créer des rapports de visualisation ;
+- L'utilisation de Python pour créer des visualisations des données.
 
-Le travail en équipe dans le but de réaliser un projet d'Analyse de Données nous a permis de travailler : 
-- Organisation du travail, répartition des tâches
-- Suivi de projet : diagramme de Gant
+Le travail d'équipe dans le but de réaliser un projet d'analyse de données nous a permis de développer nos compétences en matière d'organisation du travail et de répartition des tâches, ainsi que de suivi de projet, notamment à travers l'utilisation de diagrammes de Gantt.
 
 La qualité et la pertinence de l'analyse dépendent de la qualité des données
 - Les parties Business understanding et Data preparation sont des étapes cruciales du travail de Data Analyst
 
+Nous avons également conclu que la qualité et la pertinence de l'analyse dépendent grandement de la qualité des données disponibles. Les étapes de compréhension du business et de préparation des données  sont des étapes cruciales dans le travail d'un Data Analyst.
 
