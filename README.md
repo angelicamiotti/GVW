@@ -78,7 +78,6 @@ C'est pourquoi nous avons créé un premier tableau de bord pour répondre à ce
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/0614ad4e-ec58-42d2-b4b5-ce5d541c2991" height="300">
 
-
 Pour évaluer le profil de chaque marque sur la période 2017-2022, notamment les changements de stratégies en fonction du COVID, nous avons opté pour réaliser des matrices de corrélation pour chaque marque avec Python avant de créer les tableaux de bord, afin d'identifier les variables numériques présentant une dépendance linéaire.
 
 
@@ -98,7 +97,7 @@ Après avoir obtenu une vue générale, nous avons développé des tableaux de b
 
 <img src="https://github.com/angelicamiotti/GVW/assets/8940755/b60398f0-fd9f-41c7-84a1-64bce0ea6373" height="400">
 <br>
-<img src="https://github.com/angelicamiotti/GVW/assets/8940755/fce12737-3a64-4f8b-be7c-fca066dfd578" height="400">
+<img src="https://github.com/angelicamiotti/GVW/assets/8940755/c785010e-bcc5-484f-9965-be8b9b35bbc6" height="400">
 
 ### Le marché français et allemand
 
